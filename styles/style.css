@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .banner-text h1{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+.banner-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.primary-button{
+    border-radius: 8px;
+    background-color: #e55473;
+    color: #FFF;
+    border: none;
+    padding: 15px 28px;
+    font-size: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner .banner-img img{
+    width: 100%;
+    max-width: 525px;
+    vertical-align: middle;
+}
+
+/* Featured Section Style is Here */
+#container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.section-heading{
+    padding-top: 60px;
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-title{
+    margin-bottom: 16px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+.section-content{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 25px;
+}
+.section-content .flower .flower-img{
+    /* background-color: #e55473; */
+    border-radius: 300px 300px 0 0;
+    -webkit-border-radius: 300px 300px 0 0;
+    -moz-border-radius: 300px 300px 0 0;
+    -ms-border-radius: 300px 300px 0 0;
+    -o-border-radius: 300px 300px 0 0;
+    padding: 30px 25px 0px 25px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower .green{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.section-content .flower .blue{
+    background-color: rgba(5,151,160, 0.15);
+}
+.section-content .flower .pink{
+    background-color: rgba(167,33,98, 0.15);
+}
+.section-content .flower p{
+    margin-top: 16px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+}
+/* Delivery Section Style is Here */
+#container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.delivery-content{
+  background-color: gainsboro;
+  
+}
+.delivery-details{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px 50px;
+}
+.delivery-info p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #272727;
+    text-align: center;
+   
+}
+.delivery-img{
+    padding: 0 0 0 45%;
+}
