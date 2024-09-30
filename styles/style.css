@@ -215,3 +215,33 @@ header, #hot-deals{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+/* Footer section Style is Here   */
+#footer{
+    height: 250px;
+    background-color: #272727;
+    text-align: center;
+    color: white;
+}
+.container-footer{
+    padding-top: 60px;
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.footer-col h2{
+    font-size: 34px;
+    padding: 16px 0;
+}
+.footer-col .footer-para{
+    color: rgba(214, 211, 211, 0.849);
+    font-size: 14px;
+    padding: 0 0 10px 0;
+}
+.footer-col .highlight{
+    color: #e55473;
+}
+.social-icons{
+    font-size: 13px;
+    padding: 10px 0;
+    color: #6d6868;
+}
