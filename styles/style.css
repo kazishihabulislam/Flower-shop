@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-header{
+header, #hot-deals{
     background-color: rgba(229, 84, 115, 0.10);
 }
 .container{
@@ -141,4 +141,77 @@ header{
 }
 .delivery-img{
     padding: 0 0 0 45%;
+}
+/* Hot Deal Section Style is Here */
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    
+}
+.hot-deal-main .hot-deal-text{
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+.hot-deal-main .hot-deal-text *{
+    margin-bottom: 24px;
+}
+.hot-deal-main .hot-deal-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.hot-deal-main .hot-deal-text .text-highlight{
+    color: #e55473;
+}
+.hot-deal-img{
+    width: 75%;
+    max-width: 318px;
+}
+.hot-deal-img img{
+    width: 100%;
+}
+/* Gallery Section Style is Here  */
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+.gallery .gallery-img img{
+    width: 100%;
+}
+/* News latter Section Style is Here  */
+#newsletter{
+    margin: 128px 0;
+
+}
+.newsletter-main{
+    background-image: url('../images/newslatter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 128px 0;
+}
+.newsletter-main form{
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.newsletter-main input{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    border: none;
+    flex-grow: 1;
+    font-size: 18px;
+    outline: 1px solid gainsboro;
+    border-color: rgb(100 116 139);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
